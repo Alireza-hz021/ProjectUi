@@ -1,0 +1,27 @@
+:root {
+    --LightBlack: #050920;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('/fonts/Vazir-Light-FD-WOL.eot');
+    src: url('/fonts/Vazir-Light-FD-WOL.eot?#iefix') format('embedded-opentype'), url('/fonts/Vazir-Light-FD-WOL.woff2') format('woff2'), url('/fonts/Vazir-Light-FD-WOL.woff') format('woff'), url('/fonts/Vazir-Light-FD-WOL.ttf') format('truetype');
+    font-weight: bold;
+}
+
+body {
+    font-family: Vazir;
+}
+
+.bg-img{
+    background: url(../img/milky_way_sky-wide.jpg) center no-repeat !important;
+}
+.bg-blackglass{
+    background: rgba(0, 0, 0, 0.5);
+}
+.header{
+    height: 30rem !important;
+}
+.bg-LightBlack{
+    background: var(--LightBlack) !important;
+}
